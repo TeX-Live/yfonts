@@ -2,7 +2,7 @@
 %
 % \iffalse meta comment
 %
-% Copyright (c) Walter Schmidt 1997--2003
+% Copyright (c) Walter Schmidt 1997--2019
 %
 % This program can be redistributed and/or modified under the terms
 % of the LaTeX Project Public License Distributed from CTAN
@@ -17,7 +17,7 @@
 \ProvidesFile{yfonts.drv}
 %</driver>
 %<package>\ProvidesPackage{yfonts}
-  [2003/01/08 v1.3 (WaS)]     
+  [2019/01/29 v1.4 (WaS)]     
 %
 %<*driver> 
 \documentclass[11pt,openbib]{ltxdoc}
@@ -92,7 +92,7 @@
 % \texttt{yswab} & Schwabacher\\
 % \texttt{yfrak} & Fraktur\\
 % \texttt{ysmfrak} & Fraktur (Variante)\\
-% \texttt{yinitas} & Initialen\\
+% \texttt{yinit} & Initialen\\
 % \end{tabular}
 % \end{quote}
 % Im CTAN findet man die Quellen f"ur diese Schriften in den 
@@ -158,7 +158,7 @@
 % Analog dazu gibt es auch die Makros \verb!\gothdefault!,
 % \verb!\swabdefault! und \verb!\initdefault! f"ur 
 % Gotisch ({\tt ygoth}), Schwabacher ({\tt yswab}) 
-% und die Initialen ({\tt yinitas}). Ein Abgehen von den 
+% und die Initialen ({\tt yinit}). Ein Abgehen von den 
 % Voreinstellungen ist
 % selbstverst"andlich nur dann sinnvoll, wenn passende Fonts und fd-Dateien
 % verf"ugbar sind!
@@ -290,7 +290,7 @@
 % als Initiale und nachfolgend ein "`e"' zu setzen.
 %
 % Der Befehl \verb!\yinipar! setzt voraus, da"s als Font f"ur die
-% Initialen tats"achlich \texttt{yinitas} gew"ahlt ist, d.\,h., da"s 
+% Initialen tats"achlich \texttt{yinit} gew"ahlt ist, d.\,h., da"s 
 % die Voreinstellung f"ur \verb!\initfamily! \emph{nicht} ver"andert wurde.
 % (Eine andere Schrift mit gleicher Gr"o"se k"onnte jedoch verwendet werden.)
 %
@@ -396,10 +396,6 @@
 <10><10.95><12><14.4><17.28><20.74><24.88>yswab}{}
 %    \end{macrocode}
 
-% Wir benutzen die von Andreas Schrell korrigierten Initialen
-% \texttt{yinitas}, denn die urspr"ungliche Version \texttt{yinit}
-% wies zahlreiche Ungereimtheiten auf.
-%
 % Die Codierung ist \texttt{U} (undefiniert), denn die Initialen
 % gibt es nur als Gro"sbuchstaben, und es werden keine
 % spezifischen Befehle f"ur diesen Zeichensatz definiert.
@@ -413,15 +409,15 @@
 % sie von der Oberkante der ersten bis zur Unterkante der vierten
 % Zeile des Absatzes reichen!
 %    \begin{macrocode}
-\DeclareFontFamily{U}{yinitas}{}
-\DeclareFontShape{U}{yinitas}{m}{n}{%
-<10>sfixed*yinitas%
-<10.95>sfixed*[42.34]yinitas%
-<12>sfixed*[46.39]yinitas%
-<14.4>sfixed*[55.68]yinitas%
-<17.28>sfixed*[66.82]yinitas%
-<20.74>sfixed*[80.19]yinitas%
-<24.88>sfixed*[96.20]yinitas%
+\DeclareFontFamily{U}{yinit}{}
+\DeclareFontShape{U}{yinit}{m}{n}{%
+<10>sfixed*yinit%
+<10.95>sfixed*[42.34]yinit%
+<12>sfixed*[46.39]yinit%
+<14.4>sfixed*[55.68]yinit%
+<17.28>sfixed*[66.82]yinit%
+<20.74>sfixed*[80.19]yinit%
+<24.88>sfixed*[96.20]yinit%
 }{}
 %    \end{macrocode}
 %
@@ -498,7 +494,7 @@
 \def\gothdefault{ygoth}
 \def\swabdefault{yswab}
 \def\frakdefault{yfrak}
-\def\initdefault{yinitas}
+\def\initdefault{yinit}
 %    \end{macrocode}
 %
 % Die Kommandos zur Schriftumschaltung werden unter Verwendung

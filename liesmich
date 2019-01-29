@@ -2,7 +2,7 @@
 
 ************************************************************
 *                                                          *
-*                     yfonts.sty v1.3                      *
+*                     yfonts.sty v1.4                      *
 *                                                          *
 *     Ein Makropaket fuer den Fraktursatz mit LaTeX2e      *
 *                                                          *
@@ -10,6 +10,7 @@
                                               Walter Schmidt
                                       <w-a-schmidt@arcor.de>
                                                   2003-01-08
+                                                  2019-01-29
 
 Das Makropaket yfonts.sty ermoeglicht die Benutzung der von
 Yannis Haralambous entworfenen altdeutschen Schriften
@@ -38,7 +39,7 @@ ygoth    Gotisch            aus  <ctan>/fonts/gothic/ygoth
 yswab    Schwabacher             <ctan>/fonts/gothic/yswab
 yfrak    Fraktur                 <ctan>/fonts/gothic/yfrak
 ysmfrak  Fraktur (Variante)      <ctan>/fonts/gothic/yfrak
-yinitas  Initialen               <ctan>/fonts/gothic/yinit
+yinit    Initialen               <ctan>/fonts/gothic/yinit
 
 Wie obige Fonts installiert werden mussen, haengt vom
 benutzten TeX-System ab und wird hier NICHT beschrieben,
@@ -85,7 +86,11 @@ Beispiel zu sehen.
 
 Geschichte
 ----------
-v1.3 <2сс3-01-08>  Makros \AA und \aa funktionieren wieder.
+v1.4 <2019-01-29>  Verwendung der nun funktionellen und
+                   verfuegbaren yinit Schriften (yinitas ist 
+                   nicht in TeX Live wegen Lizenzbedingung)
+
+v1.3 <2003-01-08>  Makros \AA und \aa funktionieren wieder.
 
 v1.2 <1999-05-12>  Geaenderte Lizenzbedingung: LPPL
 

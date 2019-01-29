@@ -2,7 +2,7 @@
 
 ************************************************************
 *                                                          *
-*                     yfonts.sty v1.3                      *
+*                     yfonts.sty v1.4                      *
 *                                                          *
 *    A package for using old german fonts with LaTeX2e     *
 *                                                          *
@@ -10,6 +10,7 @@
                                               Walter Schmidt
                                       <w-a-schmidt@arcor.de>
                                                   2003-01-08
+                                                  2019-01-29
 
 The macro package "yfonts" provides a LaTeX interface to the
 blackletter (old german) fonts designed by Yannis
@@ -37,7 +38,7 @@ ygoth    Gotisch            from <ctan>/fonts/gothic/ygoth
 yswab    Schwabacher             <ctan>/fonts/gothic/yswab
 yfrak    Fraktur                 <ctan>/fonts/gothic/yfrak
 ysmfrak  Fraktur (variant)       <ctan>/fonts/gothic/yfrak
-yinitas  initials                <ctan>/fonts/gothic/yinit
+yinit    initials                <ctan>/fonts/gothic/yinit
 
 It depends on your TeX system, how the above fonts are to be
 installed.  This topic is NOT discussed here.
@@ -139,6 +140,10 @@ it is available in the Fraktur font only.
 
 History
 -------
+v1.4 <2019-01-29> Again use the now useable yinit fonts
+                  (yinitas is not available in TeX Live due
+                  to license issues)
+
 v1.3 <2003-01-08> \AA and \aa fixed.
 
 v1.2 <1999-05-12> License agreement changed to LPPL.
