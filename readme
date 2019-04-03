@@ -8,9 +8,10 @@
 *                                                          *
 ************************************************************
                                               Walter Schmidt
-                                      <w-a-schmidt@arcor.de>
-                                                  2003-01-08
-                                                  2019-01-29
+                                       <w.a.schmidt@gmx.net>
+                                            Norbert Preining
+                                     <norbert@preining.info>
+                                                  2019-04-04
 
 The macro package "yfonts" provides a LaTeX interface to the
 blackletter (old german) fonts designed by Yannis
@@ -140,7 +141,7 @@ it is available in the Fraktur font only.
 
 History
 -------
-v1.4 <2019-01-29> Again use the now useable yinit fonts
+v1.4 <2019-04-04> (NP) Again use the now useable yinit fonts
                   (yinitas is not available in TeX Live due
                   to license issues)
 
